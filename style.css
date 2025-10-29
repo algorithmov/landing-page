@@ -21,7 +21,7 @@ header {
 }
 
 #logo {
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 #header-links{
@@ -123,5 +123,13 @@ ul {
 #sign-up-text {
     flex-direction: column;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
 
 
