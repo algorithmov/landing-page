@@ -1,7 +1,7 @@
 * {
     font-family: "Lucida Console", "Courier New", monospace;
     text-decoration: none;
-    color: #E5E7EB;
+    
 }
 body {
     display: flex;
@@ -29,11 +29,13 @@ header {
     gap: 16px;
     justify-content: center;
     margin-right: 20px;
+    font-size: 18px;
 }
 
 
 a {
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 #main-section {
@@ -43,6 +45,7 @@ a {
     gap: 36px;
     flex-shrink: 1;
     padding: 100px;
+    color: #E5E7EB;
 }
 
 #website-description {
@@ -51,7 +54,7 @@ a {
     width: 600px;
 }
 
-#button {
+button {
     background-color: #3882F6;
     height: 50px;
     width: 100px;
@@ -60,8 +63,65 @@ a {
     width: fit-content;
     height: fit-content;
     padding-right: 10px;
-    padding-left: 10px;  
+    padding-left: 10px;
+    color: #E5E7EB;
 }
 
+#subtexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+#customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 10px;
+    border-color:aliceblue;
+}
+
+.quote {
+    background-color: #e5e7eb4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#sign-up-container {
+    background-color:#3882F6;
+    gap: 18px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#sign-up, #sign-up-container, #sign-up-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+#sign-up-text {
+    flex-direction: column;
+}
 
 
