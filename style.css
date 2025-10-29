@@ -1,0 +1,26 @@
+* {
+     font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-image: url("pictures/Voyager.avif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: slategray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-links{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-right: 20px;
+}
