@@ -1,21 +1,27 @@
 * {
-     font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Courier New", monospace;
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
 }
 body {
-    background-image: url("pictures/Voyager.avif");
-    background-size: cover;
     display: flex;
     flex-direction: column;
+    margin: 0px;
+}
+
+header, #main-section, footer {
+    background-color: #1F2937;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    background-color: slategray;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+#logo {
+    border-radius: 30px;
 }
 
 #header-links{
@@ -24,3 +30,38 @@ header {
     justify-content: center;
     margin-right: 20px;
 }
+
+
+a {
+    font-size: 18px;
+}
+
+#main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    flex-shrink: 1;
+    padding: 100px;
+}
+
+#website-description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+#button {
+    background-color: #3882F6;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;  
+}
+
+
+
