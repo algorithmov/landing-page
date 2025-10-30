@@ -20,8 +20,8 @@ header {
     align-items: center;
 }
 
-#logo {
-    border-radius: 20px;
+.logo-image {
+    border-radius: 50px;
 }
 
 #header-links{
@@ -131,5 +131,8 @@ footer {
     color: #E5E7EB;
 }
 
+.customer-image {
+    border-radius: 30px;
+}
 
 
